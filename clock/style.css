@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.timer {
+  position: static;
+  font-size: 90pt;
+  font-family: 'Stardos Stencil';
+  color: lightgrey;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10pt;
+  height: 150px;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 0px;
+}
+
+h1 {
+  font-size: 50pt;
+  font-family: 'Inconsolata';
+  color: white;
+  margin-bottom: 5px;
+  animation-name: fadeIn;
+  animation-duration: 7s;
+}
+
+.workStatus {
+  color: white;
+  font-size: 50pt;
+  margin-top: 30px;
+  font-family: 'Inconsolata';
+  animation-name: fadeIn;
+  animation-duration: 25s;
+}
+
+hr {
+  color: lightgrey;
+}
+
+button {
+  color: lightgrey;
+  font-family: 'Stardos Stencil';
+  font-size: 30pt;
+  background: black;
+  border-color: black;
+  border-style: none;
+}
+
+button:hover {
+  color: white;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@keyframes fadeIn {
+  from {color: black;}
+  to {color: lightgrey;}
+}
+
+p {
+  text-align: center;
+  color: lightgrey;
+  font-family: 'Stardos Stencil';
+  font-size: 12pt;
+  background: black;
+  border-color: black;
+  border-style: none;
+  width: 500px;
+  padding-left: 380px;
+  animation-name: fadeIn;
+  animation-duration: 15s;
+}
